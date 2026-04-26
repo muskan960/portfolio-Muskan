@@ -192,14 +192,7 @@ function Hero() {
           transition={{ delay: 0.6 }}
           className='flex items-center justify-center xl:justify-start gap-4 sm:gap-6 mt-8 ml-0 xl:ml-10'
         >
-          {/* <a href="#contact">
-          <button className=' text-[#e9c46b] text-lg bg-[#0c0c0c] border border-brown-200 border-1 px-2 rounded-2xl py-1 transition-all
-       duration-300
-       ease-in-out
-       hover:scale-110
-      hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(105,71,44,0.5)] active:scale-95 active:translate-y-1 active:shadow-inner'>Contact me</button> 
-      </a> */}
-  
+        
   <button
   onClick={scrollToContact}
   className=' text-[#e9c46b] text-lg bg-[#0c0c0c] border border-brown-200 border-1 px-2 rounded-2xl py-1 transition-all
