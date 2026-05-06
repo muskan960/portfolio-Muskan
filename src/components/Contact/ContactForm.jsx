@@ -45,7 +45,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:4000/api/contact", {
+      const res = await fetch("https://portfolio-server-jabc.vercel.app/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form)
@@ -71,8 +71,7 @@ const Contact = () => {
 
     setLoading(false);
 
-  };
-
+  }
   return (
     <motion.section id="contact"
       className="min-h-screen w-full bg-[#0c0c0c] px-6 py-20"
